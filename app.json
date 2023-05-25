@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "focustime",
-    "slug": "snack-02987fb4-7558-4149-a8fa-b077f81be060",
+    "slug": "focustime",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/19453d6d-0aaa-44e4-a600-0e8556dcd454"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,10 +25,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.josewebdev2000.focustime"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19453d6d-0aaa-44e4-a600-0e8556dcd454"
+      }
+    },
+    "owner": "josewebdev2000",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
